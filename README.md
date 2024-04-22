@@ -1,4 +1,4 @@
-Blocked Matrix Multiplication with Performance Analysis
+**Blocked Matrix Multiplication with Performance Analysis**
 
 This Python program implements blocked matrix multiplication and analyzes its performance for different matrix and block sizes.
 
@@ -9,7 +9,7 @@ Features:
     Measures and records the time taken for multiplication with different block sizes.
     Generates plots to visualize the relationship between blocking size and execution time.
 
-Getting Started:
+**Getting Started:**
 
     Prerequisites: This code requires the following Python libraries:
         NumPy (numpy)
@@ -17,13 +17,13 @@ Getting Started:
     Clone the repository: Use git clone https://<github_username>/blocked-matrix-mul.git to clone this repository.
     Run the script: Navigate to the project directory and execute the script using python main.py.
 
-Understanding the Code:
+**Understanding the Code:**
 
     blocked_matrix_multiply.py: This file defines the function for blocked matrix multiplication using blocking techniques.
     main.py: This file is the main entry point for the program. It sets up the experiment parameters, runs the multiplication with different block sizes, records the time taken, and generates plots for analysis.
 
-Benefits of Blocking:
-
+**Benefits of Blocking:
+**
 The program utilizes blocking, which improves the performance of matrix multiplication by optimizing memory access patterns. Here's how blocking helps:
 
     Cache Utilization: Modern CPUs have a small but very fast internal memory called cache. Blocking breaks down large matrices into smaller sub-matrices (blocks) that are more likely to fit entirely in the cache. This reduces the need to constantly swap data between the slower main memory and the faster cache, significantly improving performance.
