@@ -17,9 +17,6 @@ This code requires the following Python libraries:
 - NumPy (numpy)
 - Matplotlib (matplotlib.pyplot)
 
-### Clone the repository
-
-Use `git clone https://<github_username>/blocked-matrix-mul.git` to clone this repository.
 
 ### Run the script
 
