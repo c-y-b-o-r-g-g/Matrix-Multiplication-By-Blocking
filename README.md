@@ -20,12 +20,12 @@ This code requires the following Python libraries:
 
 ### Run the script
 
-Navigate to the project directory and execute the script using `python main.py`.
+Navigate to the project directory and execute the script using `python Test.py`.
 
 ## Understanding the Code
 
 - `Blocking.py`: This file defines the function for blocked matrix multiplication using blocking techniques.
-- `test.py`: This file is the main entry point for the program. It sets up the experiment parameters, runs the multiplication with different block sizes, records the time taken, and generates plots for analysis.
+- `Test.py`: This file is the main entry point for the program. It sets up the experiment parameters, runs the multiplication with different block sizes, records the time taken, and generates plots for analysis.
 
 ## Benefits of Blocking
 
